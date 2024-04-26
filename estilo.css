@@ -51,7 +51,7 @@
             background-color: #0c70f2;
             border: 0px;
             height: 39px;
-            width: 80px;
+            
             font-family: var(--fonte-padrao);
             font-size: 20px;
             font-weight: 600;
@@ -275,6 +275,57 @@
                 color: var(--cinza-houver);
 
                 }
+
+/*menu Query*/
+
+@media only screen and (max-width: 600px){
+    #principal{
+       
+        flex-direction: column;
+        height: auto;
+
+    }
+    #menu{
+        flex-direction: column;
+        width: 100% ;
+        margin: 0px;
+
+    }
+
+    #menu a{
+        display: flex;
+        align-items: center;
+        height: 50px;
+      
+    }
+
+    #principal button {
+        width: 100%;
+        margin: 0px;
+
+    }
+
+    /*section*/
+
+    section h1{
+        font-size: 38px ;
+    }
+
+    section h2{
+        font-size: 28px;
+        padding-right: 5px;
+        padding-left: 15px;
+    }
+
+    form{
+        width:95% ;
+        font-size: 20px;
+
+    }
+    .checkbox-itens label{
+        font-size: 17px ;
+    }
+}
 
           
 
